@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>media queries!</title>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<style type="text/css">
+			
+		html{ background-image: url('offwhite.jpg');
+			
+		}
+
+		p{
+		
+			font-size: 30px;
+			letter-spacing: 1px;
+		}
+
+		.boxed{
+			display: inline-block;
+			width: 50%;
+			box-sizing: border-box;
+			padding: 10px; 
+			vertical-align: top;
+		}
+
+
+		.boxed-2{
+			display: none;
+			width: 100%;
+			box-sizing: border-box;
+			padding: 10px; 
+			vertical-align: top;
+		}
+
+
+		@media(max-width: 900px){
+			html{
+				
+				color:White;
+				background-image: url('bluetexture1.jpg')
+			}
+
+			p{
+				font-size: 20px;
+			}
+
+		}
+
+	
+
+
+
+		@media(max-width: 800px){
+			html{
+				
+				color:LimeGreen;
+				background-image: url('Newsprint.jpg');
+			}
+
+			p{
+				font-family: helvetica;
+			}
+
+			
+			
+
+		}
+
+		@media(max-width: 700px){
+			html{
+				
+				font-color:Black;
+				background-image: url('Newsprint.jpg');
+			}
+		}
+
+		@media(max-width: 600px){
+			html{
+				background-color: LimeGreen;
+				font-color:White;
+				background-image: url('bluetexture.jpg');
+			}
+
+			
+		}
+
+
+
+
+
+		/*
+			
+			DarkOliveGreen
+			Olive
+			OliveDrab
+			YellowGreen
+			LimeGreen
+			Lime
+			LawnGreen
+			Chartreuse
+
+		*/
+
+
+
+
+	</style>
+
+</head>
+<body>
+	<p>Excercising!</p>
+
+
+	
+
+	<p class="boxed-2">this is hidden</p>
+	<img src="Newsprint.jpg" width="460" height="345">
+	<img src="bluetexture.jpg" width="460" height="345">
+	<img src="bluetexture1.jpg" width="460" height="345">
+	<img src="offwhite.jpg" width="460" height="345">
+
+
+
+
+
+
+</body>
+</html>
